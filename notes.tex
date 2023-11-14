@@ -1,0 +1,62 @@
+\documentclass[10pt]{article}
+\usepackage[a4paper, margin=0.5in]{geometry}
+\usepackage{amsmath, amssymb, enumitem, multicol}
+\usepackage[table]{xcolor}
+
+\setlist{nolistsep} % Removes spacing between list items to save space
+
+\title{\vspace{-4ex}MXB103 Exam Notes\vspace{-1ex}}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+\thispagestyle{empty} % Remove page number
+
+\begin{multicols}{2} % Use two columns to fit more information
+
+\section*{Ordinary Differential Equations}
+\subsection*{Second Order Taylor Method}
+
+
+\subsection*{Euler's Method}
+
+
+\subsection*{Modified Euler's Method}
+
+
+\subsection*{Runge-Kutta 4th Order (RK4)}
+
+\columnbreak
+
+\section*{Polynomial Interpolation}
+
+\subsection*{Lagrange Interpolating Polynomial}
+\begin{enumerate}
+    \item sub abscissas into given function to get y values.
+    \item find the Polynomial for the amount of abscissas. Ex: $ (x_{0}, y_{0}), (x_{1},y_{1}), (x_{2},y_{2}) $\\ $ \frac{(x - x_{1})(x-x_{2})}{(x_{0}-x_{1})(x_{0}-x_{2})} \cdot y_{0} $ + same thing for $ y_{1} $ and $ y_{2} $
+\end{enumerate}
+
+
+\subsection*{Newton's Divided Difference}
+$ a_{0} = y_{0}$, $a_{1} = \frac{y_{1}-y_{0}}{x_{1}-x_{0}}$, $ a_{2} = \frac{\frac{y_{2}-y_{1}}{x_{2}-x_{0}} - \frac{y_{1}-y_{0}}{x_{1}-x_{0}}}{x_{2}-x_{0}}$\\
+Example:\\
+\begin{tabular}{ c c c c c }
+    $ x_{i} $ & \text{zeroth} & \text{first} & \text{second} & \text{third}\\
+    \hline
+    $ x_{0} $ & \cellcolor{yellow!30} $ f[x_{0}] $ & \cellcolor{yellow!30} $ f[x_{0}, x_{1}] $ & \cellcolor{yellow!30} $ f[x_{0}, x_{1}, x_{2}] $ & \cellcolor{yellow!30} $ f[x_{0}, x_{1}, x_{2}, x_{3}] $\\
+    $ x_{1} $ & $ f[x_{1}] $ & $ f[x_{1}, x_{2}] $ & $ f[x_{1}, x_{2}, x_{3}] $ \\
+    $ x_{2} $ & $ f[x_{2}] $ & $ f[x_{2}, x_{3}] $ & \\
+    $ x_{3} $ & $ f[x_{3}] $ & \\
+\end{tabular} \\
+
+$ P_{3}(x) = f[x_{0}] = f[x_{0}, x_{1}](x-x_{0}) + f[x_{0}, x_{1}, x_{2}](x-x_{0})(x-x_{1}) + f[x_{0}, x_{1}, x_{2}, x_{3}](x-x_{0})(x-x_{1})(x-x_{2})$
+
+
+
+
+\subsection*{Newton's Forward Difference}
+
+\end{multicols}
+
+\end{document}
