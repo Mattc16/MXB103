@@ -114,7 +114,70 @@ ONLY use when the abscissas are equally spaced.\\
 \end{enumerate}
 
 
-
 \end{multicols}
+
+\pagebreak
+\section*{Helpful Additional Info}
+
+\subsection{Differential equation rules:}
+
+\textbf{Constant Rule:} \( c' = 0 \) where \( c \) is a constant.
+
+\textbf{Power Rule:} \( (x^n)' = nx^{n-1} \) for any real number \( n \).
+
+\textbf{Sum Rule:} \( (u + v)' = u' + v' \)
+
+\textbf{Difference Rule:} \( (u - v)' = u' - v' \)
+
+\textbf{Product Rule:} \( (uv)' = u'v + uv' \)
+
+\textbf{Quotient Rule:} \( \left(\frac{u}{v}\right)' = \frac{u'v - uv'}{v^2} \)
+
+\textbf{Exponential Rule:} \( (a^{x})' = a^{x}\ln(a) \) where \( a > 0 \) and \( a \neq 1 \).
+
+\textbf{Logarithmic Rule:} \( (\ln(x))' = \frac{1}{x} \) for \( x > 0 \).
+
+\textbf{Trigonometric Rules:}
+
+\( (\sin(x))' = \cos(x) \)
+
+\( (\cos(x))' = -\sin(x) \)
+
+\( (\tan(x))' = \sec^2(x) \)
+
+\textbf{Inverse Trigonometric Rules:}
+
+\( (\arcsin(x))' = \frac{1}{\sqrt{1-x^2}} \)
+
+\( (\arccos(x))' = -\frac{1}{\sqrt{1-x^2}} \)
+
+\( (\arctan(x))' = \frac{1}{1+x^2} \)
+
+
+\subsection{Initial Value Problem Examples:}
+$ Given: \frac{dy}{dx} = (6x - 3), y(0) = 4 $\\
+$ dx \cdot \frac{dy}{dx} = (6x - 3) dx $ \\
+$ dy = (6x - 3) dx $ \\
+\(\int dy \,\) = \(\int (6x - 3) \,dx\) \\
+$ y = \frac{6x^{2}}{2} - 3x + C $ \\
+Sub in initial value \\
+$ 4 = 3(0)^{2} - 3(0) + C $ \\
+$ C = 4 $ \\
+Plug constant C back into function:\\
+$ y = \frac{6x^{2}}{2} - 3x + 4 $\\\\
+
+\noindent $ Given: \frac{dy}{dx} = 2xy $, with initial value: $ y(0) = 3 $ \\
+$ dy = 2xy \cdot dx $ \\
+$ \frac{1}{y} \cdot dy = \frac{2xy}{y} dx $ \\
+\(\int \frac{1}{y} dy \,\) = \(\int 2x \cdot dx \,\) \\
+$ lny = \frac{2x^{2}}{2} + C $ \\
+$ lny = x^{2} + C $ \\
+$ e^{lny} = e^{x^{2}+C} $ \\
+$ y = e^{C} \cdot e^{x^{2}} $ \\
+$ y = Ce^{x^{2}} $ \\
+Sub in initial value \\
+$ 3 = Ce^{0} $ \\
+$ C = 3 $
+
 
 \end{document}
