@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1699938055 "c:/Users/Matt/Documents/mxb103/notes.tex" "notes.pdf" "notes" 1699938056 0
+["pdflatex"] 1700094717 "c:/Users/Matt/Documents/mxb103/notes.tex" "notes.pdf" "notes" 1700094717 0
   "C:/Users/Matt/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1699937376 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/Matt/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1699925877 24141478 0d8b5bc359815adb0980fa73897208f6 ""
   "C:/Users/Matt/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -60,9 +60,9 @@
   "C:/Users/Matt/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty" 1686255640 12691 ddae4e0162a664f166015d992388b742 ""
   "C:/Users/Matt/AppData/Local/Programs/MiKTeX/tex/latex/tools/multicol.sty" 1686255640 32515 51caec75eda9c8890135f12f1a4eddc3 ""
   "C:/Users/Matt/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
-  "c:/Users/Matt/Documents/mxb103/notes.tex" 1699938055 2076 b4042ed6952399950fd9660c486ecbe9 ""
-  "notes.aux" 1699938055 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "notes.tex" 1699938055 2076 b4042ed6952399950fd9660c486ecbe9 ""
+  "c:/Users/Matt/Documents/mxb103/notes.tex" 1700094716 5107 c9a78bc584b0e9023b545d159d4e2812 ""
+  "notes.aux" 1700094717 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "notes.tex" 1700094716 5107 c9a78bc584b0e9023b545d159d4e2812 ""
   (generated)
   "notes.aux"
   "notes.log"
